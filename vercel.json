@@ -1,0 +1,11 @@
+{
+  "routes": [
+    {
+      "src": "/Build/(.*)",
+      "headers": {
+        "Access-Control-Allow-Origin": "*"
+      },
+      "dest": "/Build/$1"
+    }
+  ]
+}
